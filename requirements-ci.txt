@@ -1,0 +1,6 @@
+# Minimal dependencies needed by the automated tests.
+numpy>=1.26,<3
+opencv-python-headless>=4.9,<5
+pillow>=10.2,<12
+torch>=2.2,<3
+torchvision>=0.17,<1
