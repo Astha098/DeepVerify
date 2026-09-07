@@ -1,0 +1,2 @@
+# Install a Paddle runtime compatible with your operating system first.
+paddleocr>=2.7,<3

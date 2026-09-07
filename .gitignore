@@ -1,0 +1,28 @@
+# Local environments
+venv/
+paddle_venv/
+.venv/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local data and generated model artifacts
+data/*
+!data/.gitkeep
+results/
+*.pt
+*.pth
+*.onnx
+temp*.jpg
+*_result.jpg
+
+# Local configuration and OS/editor files
+.env
+.DS_Store
+.vscode/
+*.egg-info/
